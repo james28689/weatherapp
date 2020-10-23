@@ -61,9 +61,6 @@ function displayResults(weather) {
     let weather_el = document.querySelector(".current .weather");
     weather_el.innerText = weather.weather[0].main;
 
-    let weather_img = document.querySelector(".current .weather-img");
-    weather_img.innerHTML = `<img src='http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png' />`
-
     let hilow = document.querySelector(".hi-low");
     hilow.innerText = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
 }
