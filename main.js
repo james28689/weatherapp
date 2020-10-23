@@ -27,7 +27,6 @@ window.addEventListener("load", ()=> {
     } else {
         console.log("Browser does not support geolocation.")
     }
-	document.querySelector("label").remove();
 });
 
 function getResults(query) {
