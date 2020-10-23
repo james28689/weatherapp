@@ -1,30 +1,30 @@
-  {
-    "name": "JW Weather",
-    "short_name": "Weather",
-    "theme_color": "#0097e6",
+{
+	"name": "JW Weather",
+	"short_name": "Weather",
+	"theme_color": "#0097e6",
 	"start_url": "./index.html",
-    "background_color": "#f5f6fa",
-    "display": "standalone",
-    "Scope": "/",
-    "start_url": "./index.html",
+	"background_color": "#f5f6fa",
+	"display": "standalone",
+	"ccope": "/",
+	"start_url": "./index.html",
 	"orientation": "portrait-primary",
-    "icons": [
-      {
-        "src": "./icons/icon192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": ".icons/icon512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      },
-	  {
-		"src": "icons/maskable_icon.png",
-		"sizes": "512x512",
-		"type": "image/png",
-		"purpose": "any maskable",
-	  }
-    ],
-    "splash_pages": null
-  }
+	"icons": [
+		{
+			"src": "./icons/icon192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+		},
+		{
+			"src": ".icons/icon512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+		},
+		{
+			"src": "icons/maskable_icon.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable",
+		},
+	],
+	"splash_pages": null
+}
